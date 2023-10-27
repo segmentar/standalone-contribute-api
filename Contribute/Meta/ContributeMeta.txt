@@ -1,0 +1,22 @@
+sequence Contribute : no unused namespace(s), meta, type, link
+
+	>Compress
+	<<ContributeCompress.cs
+
+	>CompressRaw
+	<<ContributeCompressRaw.cs
+
+	<InformationRaw
+	<<ContributeInformationRaw.cs
+
+	>Object
+	>>ContributeObject
+	<<<ContributeObject.cs
+
+	<Contribute.cs
+
+	/module\MODULE/ContributeModuleWrite.cs\
+
+	/module\MODULE/ContributeModuleRead.cs\
+
+end sequence
